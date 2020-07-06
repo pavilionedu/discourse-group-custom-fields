@@ -1,0 +1,9 @@
+<!-- STEP 1. This is where we get the user to input the data. Note that
+this template will be inserted into the groups-form-profile-fields component template
+which is used in both the group creation and group editing UIs. This means this input
+will be available both when creating and editing a group -->
+
+<div class="control-group">
+  {{input type="checkbox" checked=group.custom_fields.my_field}}
+  <span>{{i18n 'admin.groups.my_field.label'}}</span>
+</div>

@@ -1,0 +1,7 @@
+en:
+  admin_js:
+    admin:
+      groups:
+        my_field:
+          label: "My field"
+      
